@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- contrôler la mise 
+        en page sur les navigateurs mobiles ici le 1.0 signifie qu'il n'y a pas de zoom -->
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--compatibilité avec le navigateur Edge-->
+        <meta name="description" content="Sébastien Delrue : ma seconde page HTML"><!--la description est
+             ce qui sert au moteur de recherche pour avoir une description succinte de votre page-->
+
+        <meta name="author" content="sdelrue"><!--Désigne l'auteur de la page-->
+
+        <title>Ma seconde page HTML : les balises de texte</title><!--il est d'usage de mettre la balise TITLE après la ou les balises META-->   
+        <!--Le style dans l'en-tête-->
+        <style>        
+        body {
+            background-color: khaki;
+            } 
+        p {
+            color:red;
+            }  
+        h2 {
+            background-color: purple;color:#fff;
+            text-transform: uppercase;
+            }
+        
+        </style>
+    </head>
+
+    <!--Ici on ouvre BODY-->
+    <body>
+        <h1>Titre de niveau 1</h1><!--h = head et il n'y a qu'un seul h1 par page-->
+        <p>Ceci est un paragraphe, il n'y a qu'une seule phrase...</p>
+        <p>Et la, un second paragraphe.</p>
+        <h2>Title de niveau 2</h2>
+        <p>la balise p est la balise pour le paragraphe</p>
+        <h3>Title de niveau 3</h3>
+        <h4>Title de niveau 4</h4>
+        <h5>Title de niveau 5</h5>
+        <h6>Title de niveau 6</h6><!--Il y a 6 niveaux de titre en html--> 
+
+        <hr><!--une ligne horizontale, horizontale rule-->
+
+        <h2>Pour faire le portrait d'un oiseau</h2>
+        <p>Peindre d'abord une cage<br><!--retour forcé à la ligne : breaking row-->
+            avec une porte ouverte<br>
+            peindre ensuite<br>
+            quelque chose de joli<br>
+            quelque chose de simple<br>
+            quelque chose de beau<br>
+            quelque chose d'utile<br>
+            pour l'oiseau<br>
+            <br>    
+            Placer ensuite la toile contre un arbre<br>
+            dans un jardin<br>
+            dans un bois<br>
+            ou dans une forêt<br>
+            Se cacher derrière l'arbre<br>
+            sans rien dire<br>
+            sans bouger...<br>
+        </p>
+
+        <cite><strong>Jacques Prévert</strong> - Paroles</cite><!--une courte citation : CITE-->
+        <h2>Quelques jurons, du Capitaine Haddock bien comme il faut</h2>
+        <!--Ici on met des liste-->
+            <ul><!--une liste non ordonné</li>e UL : unordered list-->
+            <li>Bachibouzouk !</li><!--un élément de liste : LI list item-->
+            <li>Mille milliards de mille sabord !</li>
+            <li>Iconoclaste !</li>
+            <li>Crétin des alpes !</li>
+            </ul>
+        <hr>
+
+        <h2>La recette des crèpes</h2>
+        <h3>Les ingrédients de la pâte à crèpes</h3>
+
+            <ul>
+                <li>Farine</li>
+                <li>Oeufs</li>
+                <li>Lait</li>
+                <li>Une pincée de sel</li>
+                <li>Sucre</li>
+            </ul>
+
+        <h4>Préparation</h4>
+            <ol>
+                <li>Versez la farine dans le bol, avec le sucre et la pincée de sel</li>
+                <li>Incorporez les oeufs les uns après les autres</li>
+                <li>Ajoutez le lait</li>
+                <li>Mélangez bien et laissez reposer la pâte pendant une heure</li>
+                <li>Chauffez la crêpière avec une noisette de beurre</li>
+                <li>Faites sauter les crêpes : hop !</li>
+            </ol><!--Une liste ordonnée : OL ordered list-->
+        <hr>
+        <h2>Un extrait de Marcel Proust</h2>
+        <blockquote style="background-color:#594A4E;color:#fff">
+            « Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. » Et, une demi-heure après, la pensée qu’il était temps de chercher le sommeil m’éveillait ; je voulais poser le volume que je croyais avoir encore dans les mains et souffler ma lumière ; je n’avais pas cessé en dormant de faire des réflexions sur ce que je venais de lire, mais ces réflexions avaient pris un tour un peu particulier ; il me semblait que j’étais moi-même ce dont parlait l’ouvrage : une église, un quatuor, la rivalité de François Ier et de Charles Quint. »
+        </blockquote><!--une citation longue : BLOCKQUOTE-->		
+        <cite style="background-color:#333;color:#fff">J'y suis, j'y reste</cite><!--Une citation courte : CITE-->
+        <pre>Un paragraphe préformaté</pre><!--Le texte est préformaté avec une typographie à chasse fixe : PRE-->
+        <hr>
+        <h2>La balise code</h2>
+        <code>
+                &lt;!DOCTYPE html><br><!--&lt; est un caractère spécial qui restitue le symbole inférieur ; c'est un caractère HTML entity, tous les caractères HTML entity débutent par & une esperluette et se terminent par ; un point-virgule -->
+                &lt;html lang="fr"><br>
+                &lt;head><br>
+                    &lt;meta charset="UTF-8"><br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+                    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"><br>
+                    &lt;title>Document HTML de base&lt;/title><br>
+                &lt;/head><br>
+                &lt;body><br>
+                    
+                &lt;/body><br>
+                &lt;/html>
+        </code><!--La balise CODE pour dire qu'il y a du code-->
+        <hr>
+        <h2>Lætitia - Serge Gainsbourg</h2>
+        <p>L&aelig;titia est une chanson de Gainsbourg</p>
+    
+        <hr>
+        <h2>La mise en valeur de texte</h2>
+        <p style="color:olive">Bonjour, ceci est mon premier fichier HTML, alors <strong>soyez indulgent</strong> s'il vous plaît.</p><!--La balise STRONG / renforcement restitution en gras-->
+
+        <p style="background-color:orange">Bonjour , ceci est mon premier fichier HTML, alors <em>soyez indulgent</em> s'il vous plaît.</p><!--La balise EM : emphasis restitution en italique-->
+
+        <p style="background-color:black;color:white"><strike>Je me suis trompé</strike>, non je me suis pa trompé</p><!--La balise STRIKE : restitution texte barré-->
+    </body>
+</html>

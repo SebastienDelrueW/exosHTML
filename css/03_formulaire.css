@@ -1,0 +1,20 @@
+/*feuille de style pour mon premier formulaire HTML*/
+
+body {
+    background-color: khaki;
+}
+fieldset {
+    border: 1px solid cornflowerblue
+}
+
+legend {
+    background-color:khaki;
+}
+
+h1 {
+    color: rgb(23, 0, 128) ;
+}
+
+
+
+/*ici les styles pour les formulaires*/

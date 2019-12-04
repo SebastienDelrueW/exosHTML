@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+</head>
+<body>
+    <h1>Mon premier formulaire HTML</h1>
+    <!--Le lien hypertexte qui nous emmène vers une autre page-->
+    <h2><a href="02_bis_liens.html">Un lien vers la page des liens</a></h2>
+    <br>
+    <!-- je déclare le formulaire avec la balise form -->
+    <form>
+        <!-- les champs du formulaire et leurs étiquettes -->
+        <!-- un ensemble de champs de formulaire -->
+        <fieldset>
+            <legend>Nom et prénom</legend>
+            <!-- premier champ du form : le nom -->
+            <!-- label désigne l'étiquette du champs -->
+            <label for="nom">Nom *</label>
+            <!-- required indique que le champs doit être renseigné -->
+            <!-- name est indispensable -->
+            <input type="text" name="nom" id="nom" placeholder="Votre nom de famille" required>
+            <!-- second champ du form : le prénom-->
+            <label for="prenom">Prénom *</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informations de connexion</legend>
+            <!-- 3e champ du form : pseudo -->
+            <label for="pseudo">Pseudonyme *</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Trouvez-vous un pseudo" required>
+            <!-- 4e champ du form : mdp -->
+            <label for="mdp">Mot de passe *</label>
+            <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
+            <br>
+            <br>
+            <!-- 5e champ du form : email-->
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" placeholder="Votre email" required>
+            
+        </fieldset>
+        <br>
+        <br>
+        <!-- 6e champ du form : ajout d'une photo -->
+        <label for="photo">Photographie *</label>
+        <input type="file" name="photo" required>
+        <br>
+        <br>
+        <br>
+        <!-- 7e champ du form : des cases à cocher -->
+        <label for="question">Choisissez votre destination... *</label><br><br>
+        <!-- avec checked une case sera cochée par défaut -->
+        <input type="checkbox" name="question" checked>en Chine ?<br>
+        <input type="checkbox" name="question">en Autriche ?<br>
+        <input type="checkbox" name="question">ou sur Mars !? (retour non garanti)
+        <br>
+        <!-- 8e champ du form ; une zone de texte -->
+        <p><label for="commentaire">Avez-vous une précision à apporter, un souhait pour le voyage ?</label></p>
+        <!-- rows nbr de lignes, cols nbr de rangées du textarea -->
+        <textarea name="commentaire" rows="5" cols="50"></textarea>
+        <br>
+        <!-- pour envoyer le form, un bouton (un btn...) -->
+        <input type="submit" name="inscription" value="Envoyer">
+        <!-- pour vider le formulaire -->
+        <input type="reset" name="annuler" value="Effacer">
+    </form>
+</body>
+</html>
