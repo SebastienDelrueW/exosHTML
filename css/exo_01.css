@@ -1,0 +1,10 @@
+/*Les styles pour la page avec les liens hyper texte*/
+
+body { 
+    background-color: lavender;
+}
+
+/*Une classe pour styler certaines parties de la page*/
+
+.fond_rose {
+    background-color:pink;
