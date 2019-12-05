@@ -5,11 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/02_ter_liens.css">
+    <style>
+
+        body {
+            background-color: rgb(128, 107, 104);
+            font-size: 100%;
+        }
+
+        h1 {
+            font-size: 200%;
+        }
+
+        h2 {
+            font-size: 180%;
+        }
+
+        /*une classe est nommée selon sa fonctionnalité ou son rôle dans la page et est précédée du caractère . (un point)*/
+
+        .pourlecode {
+            background-color: burlywood;
+            /*color = couleur du texte*/
+            color: royalblue
+            /*text-transform: uppercase;*/ 
+        }
+
+        kbd {
+        background-color: #eee;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+        color: #333;
+        display: inline-block;
+        font-size: .85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+        }
+
+    
+    </style>
 </head>
 <body>
     <h1>Les différents type de liens html pour naviguer</h1>
     <p>Les liens permettent de passer d'une page à une autre dans le même site ou vers un autre</p>
-    <h2></h2>
+
+
+    <!-- Les fragments de texte pertinents : MARK -->
+    <h2 id="haut">Les ancres : des liens à l'intérieur de la <mark>même page</mark> du site par exemple
+    <a href="#bas">pour aller en bas</a></h2>
+    <p>Les ancres sont utiles sur les sites intégrant beaucoup de conteneus</p>
+    <hr>
+    <p><a href="#interieur">Lien intérieur vers une autre page du site</a></p>
+    <p><a href="#">Lien ouvrant un nouvel onglet</a></p>
+    <p><a href="#">Lien vers un autre site web</a></p>
+    <p><a href="#">Lien de téléchargement d'un fichier .pdf</a></p>
+    <p><a href="#">Lien de visualisation d'un fichier .pdf</a></p>
+    <p><a href="#">Lien sur une image</a></p>
+    <p><a href="#">Lien permettant d'imprimer la page en cours</a></p>
+    <hr>
+
+    <h2 id="interieur">Lien intérieur vers une autre page du site</h2>
+    <p>La balise &lt;a> permet de créer un lien hypertexte et l'attribut href permet de définir la destination du lien</p>
+    <a href="#">Cliquez ici pour aller sur une page du site</a>
+    <p class="pourlecode"><code>&lt;a href="#"></code>Cliquez ici pour aller sur une page du site<code>&lt;/a></code></p>
+    <p><a href="#haut">haut</a></p>
+
+        <br>        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Une balise pour dire que c'est un raccourci clavier ex : pour ouvrir un  fichier faites <kbd>CTRL</kbd> + <kbd>O</kbd></p>
+
+    <p id="bas"><a href="#haut">Haut de page</a></p>
 </body>
 </html>
