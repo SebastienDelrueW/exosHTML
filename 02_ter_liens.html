@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Les différents type de liens html pour naviguer</title>
+    
     <style>
 
         body {
@@ -30,17 +31,17 @@
         }
 
         kbd {
-        background-color: #eee;
-        border-radius: 3px;
-        border: 1px solid #b4b4b4;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-        color: #333;
-        display: inline-block;
-        font-size: .85em;
-        font-weight: 700;
-        line-height: 1;
-        padding: 2px 4px;
-        white-space: nowrap;
+            background-color: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+            color: #333;
+            display: inline-block;
+            font-size: .85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
         }
 
     
@@ -57,7 +58,7 @@
     <p>Les ancres sont utiles sur les sites intégrant beaucoup de conteneus</p>
     <hr>
     <p><a href="#interieur">Lien intérieur vers une autre page du site</a></p>
-    <p><a href="#">Lien ouvrant un nouvel onglet</a></p>
+    <p><a href="#onglet">Lien ouvrant un nouvel onglet</a></p>
     <p><a href="#">Lien vers un autre site web</a></p>
     <p><a href="#">Lien de téléchargement d'un fichier .pdf</a></p>
     <p><a href="#">Lien de visualisation d'un fichier .pdf</a></p>
@@ -66,10 +67,10 @@
     <hr>
 
     <h2 id="interieur">Lien intérieur vers une autre page du site</h2>
-    <p>La balise &lt;a> permet de créer un lien hypertexte et l'attribut href permet de définir la destination du lien</p>
-    <a href="#">Cliquez ici pour aller sur une page du site</a>
-    <p class="pourlecode"><code>&lt;a href="#"></code>Cliquez ici pour aller sur une page du site<code>&lt;/a></code></p>
-    <p><a href="#haut">haut</a></p>
+        <p>La balise &lt;a> permet de créer un lien hypertexte et l'attribut href permet de définir la destination du lien</p>
+        <a href="#">Cliquez ici pour aller sur une page du site</a>
+        <p class="pourlecode"><code>&lt;a href="#"></code>Cliquez ici pour aller sur une page du site<code>&lt;/a></code></p>
+        <p><a href="#haut">haut</a></p>
 
         <br>        
         <br>
@@ -82,15 +83,45 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <p>Une balise pour dire que c'est un raccourci clavier ex : pour ouvrir un  fichier faites <kbd>CTRL</kbd> + <kbd>O</kbd></p>
 
-    <p id="bas"><a href="#haut">Haut de page</a></p>
+        <hr>
+        <h2 id="onglet">Lien ouvrant un nouvel onglet</h2>
+        <p>Sans fermer l'onglet du site consulté, on va visiter un autre site en ouvrant un nouvel onglet</p>
+
+        <a href="00_structure.html" target="_blank">la première page HTML que j'ai faite</a>
+
+        <p class="pourlecode"><code>&lt;a href="00_structure.html" target="_blank"></code>La première page HTML  que j'ai faite<code>&lt;/a></code></p>
+        <hr>
+        <h2 id="autresite">Lien vers un autre site web</h2>
+        <p>L'attribut <em>href</em> permet de définir la destination du lien et l'attribut <em>title</em> affiche une bulle-info au survol de la souris</p>
+        <a href="http://www.cine-directors.net/" target="_blank"> Ciné-Directors</a>
+        <p class="pourlecode">
+
+        <code>&lt;a href="http://www.cine-directors.net/" target="_blank"Title="Ciné-Directors></a></code>Le site Ciné-Directors<code>&lt;/a></code>
+
+    </p>
+
+    <h2 id="telecharger">Lien de téléchargement d'un fichier .pdf</h2>
+    <p>Ce lien permet de proposer le téléchargement d'un fichier (attention à l'arborescence des répertoires si votre fichier n'est pas dans le même répertoire que le fichier index.html)</p>
+        <a href="docs/Atelier_12.pdf">Télécharger le fichier</a>
+        <p class="pourlecode"><code>&lt;a href="document.doc"></code>Télécharger le fichier<code>&lt;/a></code></p>
+
+        
+            
+    <p><a href="#haut">Haut</a></p>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+        <p id="bas"><a href="#haut">Haut de page</a></p>
 </body>
 </html>
