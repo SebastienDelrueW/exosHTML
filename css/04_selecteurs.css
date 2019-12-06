@@ -1,0 +1,31 @@
+/*feuille de style pour la page sélecteur */
+
+body {
+    background-color: papayawhip;
+    color:rgb(22, 6, 41);
+}
+
+/* des classes pour la page */
+.zone1 {
+    background-color: rgb(211, 94, 35);
+    height: 60px;
+
+} 
+
+.zone2 {
+    background-color: blue;
+    /*hauteur du bloc*/
+    height: 100px;
+}
+
+/* des styles pour des ID */
+
+#zone3 {
+    background-color: royalblue;
+    color: white;
+}
+.zone4 {
+    background-color: red;
+    /*hauteur du bloc*/
+    height: 60px;
+}
