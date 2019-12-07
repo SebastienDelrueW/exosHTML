@@ -1,0 +1,22 @@
+/* feuille de style pour la page sebastien site */ 
+
+
+body { 
+        color:black;
+        background-color:white;
+        background-image: url(../img/alincoln.jpg);
+        background-repeat:no-repeat;
+
+    }
+    
+img {
+        height:120px;
+        padding:20px 20px 20px 20px;
+        margin-bottom:100px;
+        border:1px solid  rgb(62, 62, 114);
+        
+    }
+
+
+ 
+    
