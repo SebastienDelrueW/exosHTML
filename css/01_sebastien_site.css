@@ -5,6 +5,7 @@ body {
         color:rgb(0, 0, 0);
         background-color:white;
         background-image: url(../img/alincoln.jpg);
+        background-image: opacity 0,5;
         background-repeat:no-repeat;
 
     }
@@ -15,7 +16,7 @@ img {
         margin-left: 26px;
         margin-top: 12px;
         margin-bottom:100px;
-        border:1px solid  rgb(62, 62, 114);
+        border:2px solid  rgb(62, 62, 114);
         
     }
  
