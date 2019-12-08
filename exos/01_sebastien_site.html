@@ -8,52 +8,80 @@
     <!--la description est ce qui sert au moteur de recherche pour avoir une description succinte de votre page-->
     <meta name="author" content="sdelrue"><!--Désigne l'auteur de la page-->
     <title>Page site accueil Sébastien Delrue</title>
-<link rel="stylesheet" href="../css/01_sebastien_site.css">
+    <link rel="stylesheet" href="../css/01_sebastien_site.css">
     <!--La feuille de style externe-->
 </head>
-
 <body>
 
     <audio src="../audio/Oretargent.mp3" autoplay controls></audio>
-    <p></style><strong><cite>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musique de</cite> Sébastien Delrue</strong></p>
+    <p><strong><cite>&emsp;&emsp;Musique de</cite> Sébastien Delrue</strong></p>
     <!-- Simple lecture audio -->
 
-    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;« La vie est dure mais tellement belle. » &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Abraham Lincoln 1809-1865</h1>
-
-    <p>&nbsp;&nbsp;&nbsp;<strong>Voici l'histoire d'une révolution</strong></p>
-    <p>&nbsp;&nbsp;C'est avec un grand plaisir que mon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nouveau site verra le jour</p>
-
     <!--ici une div avec son identifiant, cet ID est unique sur cette page il ne peut y avoir 2 id identique sur une même page -->
-    <div id="haut">&nbsp;&nbsp;...</div><!--Cette div contient l'ancre du haut de la page a l'identifiant "haut" ID -->
+
+    <div id="haut">&ensp;...</div><!--Cette div contient l'ancre du haut de la page a l'identifiant "haut" ID -->
 
     <!--Les ancres : premier type de lien hypertexte-->
-    <a href="#bas"> vers le bas de la page</a>
+    <a href="#bas">vers le bas de la page</a>
 
-<ol>
-    <li><strong>Vibrations</strong></li>
-    <li>Les photographies à découvrir</li>
-</ol><!--Une liste ordonnée : OL ordered list-->
+    <h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"La vie est dure mais tellement belle."&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Abraham Lincoln 1809-1865</h1>
 
-<ul>
-    <li><cite><strong>Phrase du jour</strong></cite></li><!--une courte citation : Phrase du jour-->
-    <li>Citation du jour</li>
-    <li>Plat du jour</li>
+    <p>&ensp;&nbsp;<strong>Voici l'histoire d'une révolution</strong></p>
+    <p>&ensp;C'est avec un grand plaisir que mon &emsp;&ensp;&thinsp;nouveau site verra le jour</p>
+    
+    <ol>      
+    <li><a href="#Préambule"><strong>Préambule</strong></a></li><br>
+    <li><a href="#Article 10"><strong>Article 10</strong></a></li><br>
+    <li><a href="#Article 23"><strong>Article 23</strong></a></li><br>
+    </ol><!--Une liste ordonnée : OL ordered list-->
+
+
+    <ul>
+    <li>Citation du jour</li><!--une courte citation : citation du jour-->
     <li><cite>Reflexion du jour</cite></li>
-</ul>
+    <li><a href="../exos/02_sebastien_site.html" target="_blank">Page 2 du site</a></li>
+    </ul>
 
- 
-<a href="https://milesandlove.com/photos/etats-unis" target="_blank" title="Site de photographies USA">
+    <a href="https://milesandlove.com/photos/etats-unis" target="_blank" title="Site de photographies USA">
     <img src="../img/sdllchaude.jpg" alt="USA Photos">
     </a>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<fieldset>
+        <legend>Nom et prénom</legend>
+        <!-- premier champ du form : le nom -->
+        <!-- label désigne l'étiquette du champs -->
+        <label for="nom">Nom *</label>
+        <!-- required indique que le champs doit être renseigné -->
+        <!-- name est indispensable -->
+        <input type="text" name="nom" id="nom" placeholder="Votre nom de famille" required>
+        <!-- second champ du form : le prénom-->
+        <label for="prenom">Prénom *</label>
+        <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+    </fieldset>
+    <fieldset>
+            <legend>Informations de connexion</legend>
+            <!-- 3e champ du form : pseudo -->
+            <label for="pseudo">Pseudonyme *</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Trouvez-vous un pseudo" required>
+            <!-- 4e champ du form : mdp -->
+            <label for="mdp">Mot de passe *</label>
+            <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
+            <br>
+            <br>
+            <!-- 5e champ du form : email-->
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" placeholder="Votre email" required>
+            
+    </fieldset>
+
 
      <!--2/ Le lien hypertexte qui nous emmène vers une autre page-->
-     &nbsp;<h2><a href="../03_formulaire.html">le formulaire</a></h2>
+     &nbsp;<h3><a href="../03_formulaire.html">le formulaire</a></h3>
 
-    <p>
-        Préambule<br>
-        <br>Considérant que la reconnaissance de la dignité inhérente à tous les membres de la famille humaine et de leurs droits égaux et inaliénables constitue le fondement de la liberté, de la justice et de la paix dans le monde.<br>
+    <br><br>
+        
+        <p id="Préambule"><strong>Préambule</strong></p>
+        <p><br>Considérant que la reconnaissance de la dignité inhérente à tous les membres de la famille humaine et de leurs droits égaux et inaliénables constitue le fondement de la liberté, de la justice et de la paix dans le monde.<br>
         
         <br>Considérant que la méconnaissance et le mépris des droits de l'homme ont conduit à des actes de barbarie qui révoltent la conscience de l'humanité et que l'avènement d'un monde où les êtres humains seront libres de parler et de croire, libérés de la terreur et de la misère, a été proclamé comme la plus haute aspiration de l'homme.<br>
         
@@ -106,7 +134,7 @@
          
         Nul ne peut être arbitrairement arrêté, détenu ou exilé.<br>
         
-        <br><strong>Article 10</strong><br>
+        <p id="Article 10"><strong>Article 10</strong></p>
          
         Toute personne a droit, en pleine égalité, à ce que sa cause soit entendue équitablement et publiquement par un tribunal indépendant et impartial, qui décidera, soit de ses droits et obligations, soit du bien-fondé de toute accusation en matière pénale dirigée contre elle.<br>
         
@@ -168,7 +196,7 @@
          
         <br>Toute personne, en tant que membre de la société, a droit à la sécurité sociale ; elle est fondée à obtenir la satisfaction des droits économiques, sociaux et culturels indispensables à sa dignité et au libre développement de sa personnalité, grâce à l'effort national et à la coopération internationale, compte tenu de l'organisation et des ressources de chaque pays.<br>
         
-        <br><strong>Article 23</strong><br>
+        <p id="Article 23"><strong>Article 23</strong></p>
          
         <br>1. Toute personne a droit au travail, au libre choix de son travail, à des conditions équitables et satisfaisantes de travail et à la protection contre le chômage. 
         <br>2. Tous ont droit, sans aucune discrimination, à un salaire égal pour un travail égal. 
@@ -207,15 +235,15 @@
         
         <br><strong>Article 30</strong><br>
          
-        <br>Aucune disposition de la présente Déclaration ne peut être interprétée comme impliquant pour un État, un groupement ou un individu un droit quelconque de se livrer à une activité ou d'accomplir un acte visant à la destruction des droits et libertés qui y sont énoncés.</p>
+        <br>Aucune disposition de la présente Déclaration ne peut être interprétée comme impliquant pour un État, un groupement ou un individu un droit quelconque de se livrer à une activité ou d'accomplir un acte visant à la destruction des droits et libertés qui y sont énoncés.
 
-    <br><br><br><br><br><br><br><br>
+        <br><br><br>
 
- <a href="#haut">vers le haut de la page</a>
+        <a href="#haut">vers le haut de la page</a>
 
- <div id="bas">...</div><!--Cette div contient l'ancre du bas de la page a l'identifiant "bas" ID -->
+        <div id="bas">...</div><!--Cette div contient l'ancre du bas de la page a l'identifiant "bas" ID -->
 
-    <svg width="10%" height="50%" viewBox="0 0 100 100"></svg>	
+        <svg width="10%" height="50%" viewBox="0 0 100 100"></svg>	
 
 
 </body>

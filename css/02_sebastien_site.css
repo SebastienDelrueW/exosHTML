@@ -1,0 +1,33 @@
+/* feuille de style pour la page sebastien site */ 
+
+
+body { 
+        color:rgb(0, 0, 0);
+        background-color:white;
+        opacity: 1;
+        background-repeat:no-repeat; 
+    }
+    body:after {
+        content: "image-fond";
+        background-image: url(../img/canaldelourcq.jpg);
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+img {
+        height:140px;
+        padding:20px 20px 20px 20px;
+        margin-left: 26px;
+        margin-top: 12px;
+        margin-bottom:100px;
+        border:2px solid  rgb(62, 62, 114);
+        
+    }
+ 
+ 
+    
