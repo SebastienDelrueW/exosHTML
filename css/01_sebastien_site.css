@@ -8,15 +8,16 @@ body {
         background-repeat:no-repeat; 
     }
     body::after {
-        content: "image-fond";
+        
         background-image: url(../img/abrahamlincoln.jpg);
-        opacity: 0.5;
+        opacity: 0.6;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         position: absolute;
         background-repeat:no-repeat; 
+        content: "image-fond";
         z-index: -1;
     }
 
