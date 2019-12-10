@@ -1,7 +1,7 @@
 /*Les styles pour la page avec les liens hyper texte*/
 
 body {
-    background-color: rgb(7, 34, 25);
+    background-color: red;
 }
 .rectangle {
     border: 10px solid red;
