@@ -1,6 +1,7 @@
 /*feuille de style pour la page sélecteur */
 
 body {
+    background: linear-gradient(to left, #40a497, #6840a4);
     background-color: papayawhip;
     color:rgb(22, 6, 41);
 }

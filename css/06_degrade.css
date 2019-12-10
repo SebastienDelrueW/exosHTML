@@ -1,10 +1,13 @@
 /*Les styles pour la page avec les liens hyper texte*/
 
 body {
-    background-color: red;
+      background-color: rgb(0, 121, 111); 
+    /* background-color: red; */
 }
-.rectangle {
-    border: 10px solid red;
+.carre {
+    /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+    background: linear-gradient(to left, #be643a, #010c20);
+    border: 0px solid red;
     /*largeur */
     width: 45em;
     /* hauteur */
@@ -12,3 +15,13 @@ body {
     /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
     margin: 0 auto;
 }
+.cercle {
+    background: linear-gradient(to right, #be643a, #010c20);
+    border: 0px solid red;
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius: 50%;
+}
+
