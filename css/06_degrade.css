@@ -1,0 +1,14 @@
+/*Les styles pour la page avec les liens hyper texte*/
+
+body {
+    background-color: rgb(7, 34, 25);
+}
+.rectangle {
+    border: 10px solid red;
+    /*largeur */
+    width: 45em;
+    /* hauteur */
+    height: 45em;
+    /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+}
