@@ -29,82 +29,64 @@
             </style>
     
 </head>
-
 <body>
-
-<h1>Exo 3</h1>
-
-
+    <hr>
+    <h1><strong>Exo 03</strong></h1>
 <ol>
-
-    <!-- l'élément ABBR pour dire qu'il y a une abréviation-->
-
-    <li><abbr>HTML</abbr>: Hyper Text Markup Language
-    <ul>
-        <li>c'est la strucure</li>
-    </ul>
-    </li>
-
-    <li><abbr>CSS</abbr>: Cascading Style Sheet</li>
-    <ul>
-      <li>c'est la mise en forme</li>
-    </ul>
-
-
-    <li>Termilologie
-    <ul>
-        <li>Eléments</li>
-        <li>Balise</li>
-        <li>Attribut : ce sont des propriétés utilisées pour fournir des informations complémentaires sur un élément. Les attributs les plus communs incluent l'attribut ID (qui identifie un élément), l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui spécifie la source d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de l'élément :
-            <br>
-            <code>&lt;a href="http:www.google.fr">Vers le site de google&lt;/a></code>
-        </li>
-    </ul>
-    </li>
-
-    <li>Structure
-    <ul>
-        <li>un fichier</li>
-        <li>tous les fichiers</li>
-        <li><STRONG>!DOCTYPE</STRONG></li>
-        <li>à l'intérieur d</li>
-        <li>tout ce</li>
-        <li>quand</li>
-        <li>les balises</li>
-        <li>les balises</li>
-    </ul>
-    </li> 
-
-    <code>&lt;!DOCTYPE html><code></code>&lt;</code><br><br>
-
-    <code>&lt;html<code></code>&lt;</code><br><br>
-    <code>&lt;head><code></code>&lt;</code><br><br>
-    <code>&lt;title/title<code></code>&lt;</code><br><br>
-    <code>&lt;/head><code></code>&lt;</code><br><br>
-    <code>&lt;body><code></code>&lt;</code><br><br>
-    <code>&lt;body><code></code>&lt;</code><br><br>
-    <code>&lt;html><code></code>&lt;</code><br><br>
-
-   
-
-    <code>&lt;br/<code></code>&lt;</code><br><br>
-    <code>&lt;img/<code></code>&lt;</code><br><br>
-    <code>&lt;meta/<code></code>&lt;</code><br><br>
-    <code>&lt;input/<code></code>&lt;</code><br><br>
-    <code>&lt;body>code></code>&lt;</code><br><br>
-    <code>&lt;body><code></code>&lt;</code><br><br>
-    <code>&lt;html><code></code>&lt;</code><br><br>
-
-
-
-    <li>Le <abbr>W3C</abbr> - La validation du code</li>
-    ° <strong>!DOCTYPE html</strong>
-    
+    <li><abbr>HTML</abbr>: HyperText Markup Language
+        <ul>
+            <li>c'est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...</li>
+        </ul>
+    </li>    <li><abbr>CSS</abbr>: Cascading Style Sheet
+        <ul>
+            <li>C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnements sur la page)</li>
+        </ul>
+    </li>    
+            <li>Terminologie
+        <ul>
+            <li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus couramment utilisés sont les niveaux de titres (h1 à h6) et les paragraphes (avec la balise p)</li>
+            <li>Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un chevron fermant. L'ouverture d'une balise détermine le début d'un élément. Sa fermeture détermine sa fin.le contenu qui est inséré entre une balise ouvrante et fermante représente le contenu de cet élément. Par exemple, un lien html sera encadré d'une balise A ouvrante et fermante. Il existe aussi des balises auto-fermantes (aussi dites orphelines)</li>
+            <li>Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires sur un élément. Les attributs les plus communs incluent l'attribut ID (qui identifie un élément), l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui spécifie la source d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de l'élément : <br><code>&lt;a href="http:www.google.fr">Vers le site de google&lt;/a></code>
+        </ul> 
+    </li>    
+            <li>Structure
+        <ul>
+            <li>un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension _.html_.</li>
+            <li>tous les fichiers html ont une structure de base qui implique de déclarer les éléments suivants :<br>
+                <code>&lt;!DOCTYPE html><br><br>
+                &lt;html><br><br>
+                &lt;head><br><br>
+                &lt;title>&lt;/title><br><br>
+                &lt;/head><br><br>
+                &lt;body><br><br>
+                &lt;body><br><br>
+                &lt;/html><br><br>
+                </code>
+            </li>
+            <li><strong>!DOCTYPE html</strong> informe le navigateur web que le document est de type html et qu'il s'agit (ici) de la dernière version du language, le HTML 5. En HTML 4.01, la précédente version avant le 5, cette balise s'écrivait &lt;!DOCTYPE HTML PUBLIC"-//WC3//DTD HTML 4.01 Frameset/EN"<br>"http:www.w3.org/TR/html4/frameset.dtd"></li>
+            <li>à l'intérieur de l'élément html la balise <strong>head</strong> identifie le début du document et inclut les métadonnées ( informations sur la page). Le contenu à l'intérieur de ma balise head n'est pas affiché par le navigateur puisqu'il donne des informations sur la page (liens vers des fichiers externes, utilisation du langage html, titre de la page).</li>
+                <li>tout ce qui s'affichera dans le navigateur est inclus à m'intérieur de la balise <strong>body.</strong></li>
+                <li>quand un élément est placé au sein d'un autre ( ou imbriqué) il est important d'<strong>indenter</strong> cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une structure bien organisée et lisible pour tout le monde</li>
+                <li>les balises en paires comportent une balise ouvrante et une balise fermante indiquant pour chacune le début et la fin de l'élément correspondant</li>
+                <li>les balises auto-fermantes correspondent à des éléments ponctuels dans une page html, pas besoin de fournir une information de fin (insérer une image ou un lien par exemple). Les plus courants :<br>
+            &lt;br/><br>
+            &lt;img/><br>
+            &lt;input/><br>
+            &lt;hr/><br>
+            &lt;link/></li>
+        </ul>
+    </li>    
+            <li> Le W3C - La validation du code</li>
+            Le <strong>World Wide Web Consortium</strong>, abrégé par le sigle <strong>W3C</strong>, est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du <U>World Wide Web</U> telles que <U>HTML5, HTML, CSS, PNG, SVG</U>...Le <u>W3C ou World Wide Web Consortium</u>, est un organisme international qui développe des <u>standards</u> pour le web afin que les gens puissent communiquer efficacement à travers internet, autour de formats ouverts garantissant une meilleure intéropérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à travers des données et languages standardisés).
+            Le consortium existe depuis 1994 et est dirigé par du WEB, Tim Berners-Lee. Il est composé d'une équipe fixe et des membres (dont plusieurs centaines d'entreprises partenaires). Les membres déléguent des ingénieurs au sein du W3C et participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, Mozilla, Apple, Opéra, Google, etc)
+            
+</body>
+</html>
 
 </ol>
 <hr>
 <!--ol>li*5>ul>li*3-->
-<h2>Des listes non ordonnées imbriquéeq dans une liste ordonnées faites de 5 éléments de listes</h2>
+<h2>Des listes non ordonnées imbriquées dans une liste ordonnées faites de 5 éléments de listes</h2>
 
 
 <ol>
