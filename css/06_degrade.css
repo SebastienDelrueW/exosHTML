@@ -6,20 +6,48 @@ body {
 }
 .carre {
     /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
-    background: linear-gradient(to left, #be643a, #010c20);
+    background: linear-gradient(to left, #3a5fbe, #690388);
     border: 0px solid red;
     /*largeur */
-    width: 45em;
+    width: 15em;
     /* hauteur */
-    height: 45em;
+    height: 15em;
     /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
     margin: 0 auto;
 }
 .cercle {
-    background: linear-gradient(to right, #be643a, #010c20);
+    background: linear-gradient(to right, #675a14, #6c0202);
     border: 0px solid red;
-    width: 45em;
-    height: 45em;
+    width: 15em;
+    height: 15em;
+    margin: 0 auto;
+    /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius: 50%;
+}
+.triangle {
+    background: linear-gradient(to left, #675a14, #3a5fbe);
+    border: 1px solid red;
+    width: 65em;
+    height: 35em;
+    margin: 0 auto;
+
+}
+.carre2 {
+    /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+    background: linear-gradient(to left, #690388, #3a5fbe);
+    border: 0px solid red;
+    /*largeur */
+    width: 15em;
+    /* hauteur */
+    height: 15em;
+    /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+}
+.cercle2 {
+    background: linear-gradient(to left, #675a14, #6c0202);
+    border: 0px solid red;
+    width: 15em;
+    height: 15em;
     margin: 0 auto;
     /* la propriété border-radius permet d'arrondir plus ou moins les angles */
     border-radius: 50%;
