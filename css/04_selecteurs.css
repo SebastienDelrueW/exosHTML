@@ -30,7 +30,7 @@ section p:first-child {
 section p:last-child {
     /* le dernier P de chaque section aura un fond orange; dernier enfant d'un élément */
         background-color: orange;
-        color: rgb(135, 71, 255);
+        color: rgb(195, 15, 2);
 }
 
 section p:nth-child(3), p:nth-child(6)  {
@@ -52,23 +52,45 @@ section p:nth-child(5), p:nth-child(9)  {
     text-transform: capitalize;
     height: 50px;
 }
+
+.zone1, .zone2 {
+    /* hauteur du bloc */
+    height: 50px;
+}
 .zone1 {
     background-color: rgb(211, 94, 35);
-    /* height hauteur du container */
-    height: 60px;
+    /* height hauteur du container */ 
 } 
 .zone2 {
     background-color: blue;
     /*hauteur du bloc*/
-    height: 100px;
 }
 
 /* des styles pour des ID */
 
 #zone3 {
+    /* ID donc avant son nom je mets # */
     background-color: royalblue;
     color: white;
 }
+
+#zone3:before {
+    /* on rajoute du contenu (content) avant l'ID zone3 */
+        content: " Rajouté avant la zone 3 ";
+    }
+
+#zone3:after {
+/* on rajoute du contenu (content) après l'ID zone3 */
+    content: " rajouté après la zone 3.";
+}
+
+
+
+
+
+
+
+
 .zone4 {
     background-color: red;
     /*hauteur du bloc*/
