@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }   
 header {
-    background-color: #363636;
+    background-color: #4d0505;
     height: 100px;
 }
 nav {
@@ -22,14 +22,24 @@ section {
     height: 500px;
     background-color: lightslategrey;
 }
+.clear {
+    clear :both;
+}
 footer {
     background-color: maroon;
     height: 100px;
 }
-a. {
+.a, .b, .c, .d {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+
+.a {
     background: lightsalmon;
 }
-b. {
+.b {
     background-color: magenta;
 }
 .c {

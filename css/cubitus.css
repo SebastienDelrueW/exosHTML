@@ -1,0 +1,14 @@
+/* feuille de style pour Cubitus 1 */
+
+
+
+body {
+    background-color: gainsboro;
+}
+.cubitus {
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+border: 2px solid goldenrod;
+}
+

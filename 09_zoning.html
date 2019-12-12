@@ -14,17 +14,18 @@
         <nav>Navigation</nav>
         <section>
                 <!-- div*6. -->
+                <!-- à partir de ces div j'ai float: left; pour casser le flux -->
             <div class="a">a</div>
             <div class="b">b</div>
-            <div class="VOIR"></div>
-
+            <!-- grâce à la div clear je rétablis le flux -->
+            <div class="clear"></div>
+            <!-- ici je le casse de nouveau -->
             <div class="c">c</div>
             <div class="d">d</div>
-            <div class="VOIR"></div>
-
+            <!-- et dès que je n'en ai plus besoin, par sécurité je le rétablis -->
+            <div class="clear"></div>
         </section>
         <footer>Pied de page</footer>
-
 
     </div>
    
