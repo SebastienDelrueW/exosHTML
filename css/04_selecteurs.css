@@ -1,30 +1,97 @@
 /*feuille de style pour la page sélecteur */
 
 body {
-    background: linear-gradient(to left, #40a497, #6840a4);
     background-color: papayawhip;
+    /* taille de la police ou de la typo ou de la font (et pas de l'écriture) */
     color:rgb(22, 6, 41);
 }
 
-/* des classes pour la page */
+/* des propriétés pour la section et pour les différents paragraphe de la section */
+
+section {
+    background-color: cadetblue;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid red;
+    margin: 10px;
+   
+}
+section p {
+    color: rgb(23, 32, 3);
+}
+/* tous les P à l'interieur  de la balise SECTION ont une couleur */
+
+section p:first-child {
+    /* le premier P de chaque section sera darkblue et en gras; premeier enfant d'un élément */
+    color: rgb(139, 0, 12);
+    font-weight: border;
+    }
+
+section p:last-child {
+    /* le dernier P de chaque section aura un fond orange; dernier enfant d'un élément */
+        background-color: orange;
+        color: rgb(195, 15, 2);
+}
+
+section p:nth-child(3), p:nth-child(6)  {
+    /* le 3ème et le 6ème P de chaque section auront la 1ère lettre du mot en majuscules; le énième d'un élément */
+    text-transform: uppercase;
+}
+
+section p:nth-child(even) {
+    /* tous les P pair */
+    background-color: yellow;
+}
+
+section p:nth-child(odd) {
+    /* tous les P impair*/
+    background-color: white;
+}
+section p:nth-child(5), p:nth-child(9)  {
+    /* le 5ème et le 9ème P de chaque section auront la 1ère lettre du mot; le énième d'un élément */
+    text-transform: capitalize;
+    height: 50px;
+}
+
+.zone1, .zone2 {
+    /* hauteur du bloc */
+    height: 50px;
+}
 .zone1 {
     background-color: rgb(211, 94, 35);
-    height: 60px;
-
+    /* height hauteur du container */ 
 } 
-
 .zone2 {
     background-color: blue;
     /*hauteur du bloc*/
-    height: 100px;
 }
 
 /* des styles pour des ID */
 
 #zone3 {
+    /* ID donc avant son nom je mets # */
     background-color: royalblue;
     color: white;
 }
+
+#zone3:before {
+    /* on rajoute du contenu (content) avant l'ID zone3 */
+        content: " Rajouté avant la zone 3 ";
+    }
+
+#zone3:after {
+/* on rajoute du contenu (content) après l'ID zone3 */
+    content: " rajouté après la zone 3.";
+}
+
+
+
+
+
+
+
+
+
 .zone4 {
     background-color: red;
     /*hauteur du bloc*/

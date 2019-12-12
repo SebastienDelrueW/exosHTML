@@ -1,0 +1,12 @@
+/*feuille de style liste HTML*/
+
+body {
+    background-color: papayawhip;
+    /* taille de la police ou de la typo ou de la font (et pas de l'écriture) */
+    color:rgb(22, 6, 41);
+    
+}
+section p:nth-child(even) {
+    /* tous les P pair */
+    background-color: yellow;
+}
