@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Premier zoning</title>
+    <link ref="stylesheet" href="css/08_zoning.css">
+    <style>        
+            
+            body {
+                width: 80%;
+                background-color: grey;
+                border: 1px solid white;
+                margin: 10px auto;
+                color: rgb(177, 161, 174);
+            }
+
+            #contenu {
+                background-color: rgb(192, 255, 250);
+                border: 2px solid rgb(51, 3, 3);
+                margin: 5px;
+            }
+            header, footer {
+                height: 120px;
+                border: 1px salmon;
+                background-color: slategrey;
+                text-align: center;
+                padding-top: 10px;
+            }
+            nav {
+                height: 60px;
+                background-color: rgb(143, 151, 226);
+                padding-left: 40px;
+                /* padding-top 5px; */
+            }
+            section {
+                border: 20px solid lightgrey;
+                height: 400px;
+                text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <!-- div id contenu qui ouvre tout de suite après body et qui contient tout le contenu souvent les dev nomment cette div "main" ou "content"-->
+    <div id="contenu">
+        <!-- l'en tête de la page et du contenu -->
+        <header>
+            <h1>Accueil:titre de la page / logo /accroche: ici c'est la "home page"</h1>
+        </header>
+        <!-- ici viendra sous l'en tête la navigation du site -->
+        <nav>
+        <!-- ul>li*3>a -->
+        <ul>
+            <li><a href="08_zoning.html">Accueil</a></li>
+            <li><a href="">Page 2</a></li>
+            <li><a href="">Page 3</a></li>
+        </ul>
+        </nav>
+        <!-- la section pour le contenu principal-->
+        <section>
+            <p>Contenu principal</p>
+        </section>
+        <!-- le pied de page -->
+        <footer>
+            <p>Le bas de la page</p>
+        </footer>
+    </div>
+
+</body>
+</html>

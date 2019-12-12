@@ -1,0 +1,33 @@
+/* Les styles pour la page avec les liens zoning */
+
+body {
+    width: 80%;
+    background-color: grey;
+    border: 1px solid white;
+    margin: 10px auto;
+    color: white;
+}
+
+#contenu {
+    background-color: pink;
+    border: 2px solid rgb(51, 3, 3);
+    margin: 5px;
+}
+header, footer {
+    height: 120px;
+    border: 1px salmon;
+    background-color: slategrey;
+    text-align: center;
+    padding-top: 10px;
+}
+nav {
+    height: 60px;
+    background-color: rgb(143, 151, 226);
+    padding-left: 40px;
+    /* padding-top 5px; */
+}
+section {
+    border: 20px solid lightgrey;
+    height: 400px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+/*  feuille de style pour le deuxième zoning */
+
+body {
+   background:linear-gradient(to right, #251899, #974550);
+   font-size: 25px;
+   color: mintcream;
+}
+#contenu {
+    width: 80%;
+    border:  5px solid white;
+    margin: 0 auto;
+}   
+header {
+    background-color: #363636;
+    height: 100px;
+}
+nav {
+    background-color: #363636;
+    height: 50px;
+}
+section {
+    height: 500px;
+    background-color: lightslategrey;
+}
+footer {
+    background-color: maroon;
+    height: 100px;
+}
+a. {
+    background: lightsalmon;
+}
+b. {
+    background-color: magenta;
+}
+.c {
+    background-color: mediumslateblue;
+}
+.d {
+    background-color: navy;
+}
