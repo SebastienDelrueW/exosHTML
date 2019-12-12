@@ -24,14 +24,6 @@ body {
     /* la propriété border-radius permet d'arrondir plus ou moins les angles */
     border-radius: 50%;
 }
-.triangle {
-    background: linear-gradient(to left, #675a14, #3a5fbe);
-    border: 1px solid red;
-    width: 65em;
-    height: 35em;
-    margin: 0 auto;
-
-}
 .carre2 {
     /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
     background: linear-gradient(to left, #690388, #3a5fbe);
