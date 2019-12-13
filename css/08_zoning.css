@@ -46,19 +46,20 @@ nav li a {
     padding: 2px;
     text-decoration: none;
 }
+/* le lien pas encore visité */
 nav li a:link {
     color: teal;
 }
-
+/* le lien au survol de la souris */
 nav li a:hover {
     color: royalblue;
     background-color: rgb(255, 255, 255);
 }
-
+/* le lien clic de la souris, séléctionné */
 nav li a:active {
     background-color: rgb(31, 7, 3);
 }
-
+/* le lien visité */
 nav li a:visited {
     background-color:rgb(255, 0, 212);
 }
