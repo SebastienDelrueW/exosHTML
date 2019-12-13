@@ -1,5 +1,10 @@
 /* Les styles pour la page avec les liens zoning */
 
+
+* {
+/* font-size: 300; */
+}
 body {
+    /* font-size: 120%; */
     background-color: rgb(187, 126, 187);
 }
