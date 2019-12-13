@@ -4,6 +4,12 @@ body {
     background-color: rgb(192, 237, 255);
     
 }
+
+h1, h3, div, p {
+    text-align: center;
+    background-color: rgb(160, 116, 95);
+    text-transform: uppercase;
+}
 .encadre {
     border: 1px solid black;
     padding: 2px;
