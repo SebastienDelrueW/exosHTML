@@ -10,6 +10,11 @@ h1, h3, div, p {
     background-color: rgb(160, 116, 95);
     text-transform: uppercase;
 }
+
+h1:hover {
+background-color: tomato;
+}
+
 .encadre {
     border: 1px solid black;
     padding: 2px;
