@@ -12,9 +12,25 @@ body {
     width: 260px;
     height: 194px;
     border: 5px solid white;
+    border-radius: 25%;
     /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
     float: left;
 }
+
+
+.boite2 {
+    /* une image en arrière-plan */
+    background: url(../img/egyptehieroglyphes.jpg);
+    /* l'image ne se répéte pas */
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 194px;
+    border: 5px solid white;
+    /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
+    float: left;
+}
+
+
 .clear {
     /* supprime l'effet flottant */
     clear: both;

@@ -35,10 +35,11 @@ footer {
     float: left;
 }
 
-
 .a {
-    background: lightsalmon;
+    background: url(../img/egyptehieroglyphes.jpg);
 }
+
+
 .b {
     background-color: magenta;
 }
