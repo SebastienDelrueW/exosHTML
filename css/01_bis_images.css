@@ -7,13 +7,20 @@ body {
 h1 {
     color: red; 
 }
+
+/* avec cette class je peux modifier l'affichage normal de la balise de type inline à laquelle j'affecte cette class et qui devient de type block */
+.block {
+    display: block;
+}
+
 img {
-        height:290px;
-        padding:20px 20px 20px 20px;
-        margin-bottom:20px;
-        border:20px dotted  rgb(24, 59, 113) (62, 62, 114);
+        border: 20px solid rgb(143, 155, 221);
+        margin: 5%;
+        border-radius: 50%;
 
     }
+    
+
 
 
 

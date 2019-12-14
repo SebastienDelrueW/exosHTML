@@ -20,12 +20,52 @@ header, footer {
     text-align: center;
     padding-top: 10px;
 }
+/* les styles pour la navigation dans l'élément nav */
+
 nav {
     height: 60px;
     background-color: rgb(143, 151, 226);
     padding-left: 40px;
     /* padding-top 5px; */
 }
+
+nav ul {
+    /* pour être certain de ne pas avoir de puces dans cette ul */
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+/* pour pointer les li qui sont dans la balise nav */
+nav, li {
+    display: inline;
+}
+nav li a {
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+/* le lien pas encore visité */
+nav li a:link {
+    color: teal;
+}
+/* le lien au survol de la souris */
+nav li a:hover {
+    color: royalblue;
+    background-color: rgb(255, 255, 255);
+}
+/* le lien clic de la souris, séléctionné */
+nav li a:active {
+    background-color: rgb(31, 7, 3);
+}
+/* le lien visité */
+nav li a:visited {
+    background-color:rgb(255, 0, 212);
+}
+
+/* les styles pour la section */
+
 section {
     border: 20px solid lightgrey;
     height: 400px;

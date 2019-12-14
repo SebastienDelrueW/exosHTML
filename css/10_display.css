@@ -1,0 +1,37 @@
+/* feuille de style pour la page Display */
+
+body {
+    background-color: rgb(192, 237, 255);
+    
+}
+
+h1, h3, div, p {
+    text-align: center;
+    background-color: rgb(160, 116, 95);
+    text-transform: uppercase;
+}
+
+h1:hover {
+background-color: tomato;
+}
+
+.encadre {
+    border: 1px solid black;
+    padding: 2px;
+    /* display: block; */
+}
+
+ /* :hover c'est une pseudo class du survol de la souris */
+a:hover {
+    background: violet;
+    color: white;
+}
+
+/* avec cette class je peux modifier l'affichage normal de la balise de type inline à laquelle j'affecte cette class et qui devient de type block */
+.block {
+    display: block;
+}
+/* avec cette class je peux faire contraire : modifier une balise de type block qui devient de type inline */
+.inline {
+    display: inline;
+}
