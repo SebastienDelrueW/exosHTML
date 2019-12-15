@@ -1,5 +1,62 @@
 
 
 body {
- background-color: rgb(59, 4, 109);
+    background-image: url(../img/alincoln.jpg);
+ background-color: rgb(56, 137, 208);
 }
+ul {
+    color: blueviolet;
+}
+
+ol {
+    color: brown;
+}
+
+.carre {
+  /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+  background: linear-gradient(to left, #3a5fbe, #690388);
+  border: 0px solid red;
+  /*largeur */
+  width: 15em;
+  /* hauteur */
+  height: 15em;
+  /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+  margin: 0 auto;
+}
+.cercle {
+  background: linear-gradient(to right, #675a14, #6c0202);
+  border: 0px solid red;
+  width: 15em;
+  height: 15em;
+  margin: 0 auto;
+  /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+  border-radius: 50%;
+}
+.carre2 {
+  /* une couleur en dégradé  pour la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+  background: linear-gradient(to left, #690388, #3a5fbe);
+  border: 0px solid red;
+  /*largeur */
+  width: 15em;
+  /* hauteur */
+  height: 15em;
+  /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+  margin: 0 auto;
+}
+.cercle2 {
+  background: linear-gradient(to left, #675a14, #6c0202);
+  border: 0px solid red;
+  width: 15em;
+  height: 15em;
+  margin: 0 auto;
+  /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+  border-radius: 50%;
+}
+
+.cubitus {
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+border: 2px solid goldenrod;
+}
+
