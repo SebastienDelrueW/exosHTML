@@ -65,13 +65,80 @@
      <!--2/ Le lien hypertexte qui nous emmène vers une autre page-->
      &nbsp;<h2><a href="../03_formulaire.html">le formulaire</a></h2>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
 
         <a href="#haut">vers le haut de la page</a>
 
         <div id="bas">...</div><!--Cette div contient l'ancre du bas de la page a l'identifiant "bas" ID -->
 
         <svg width="10%" height="50%" viewBox="0 0 100 100"></svg>	
+
+            
+    <table>
+        <!--titre du tableau : CAPTION 'les cellules sont fusionnées) -->
+        <caption>Ventes de la semaine</caption>
+        <!--en tête de colonnes du tableau-->
+        <thead>
+        <tr>
+        <!-- cellules d'en tête : TH table head-->
+            <th>Jour</th>
+            <th>Smartphones</th>
+            <th>Tablettes</th>
+            <th>Ordinateurs portables</th>
+        </tr>
+        </thead>
+         <!-- le corps du tableau : TBODY-->
+         <tbody>
+        <!--tr*5>td*4 : pour faire notre tableau de 5 rangées et 4 colonnes-->
+        <!--rangée de tableau : TR, table row -->
+        <tr>
+        <!-- cellules de tableau : TD, table data-->
+            <td>Lundi</td>
+            <td>20</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Mardi</td>
+            <td>5</td>
+            <td>4</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Mercredi</td>
+            <td>6</td>
+            <td>3</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Jeudi</td>
+            <td>2</td>
+            <td>4</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Vendredi</td>
+            <td>2</td>
+            <td>8</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Samedi</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+         </tbody>
+        <!-- le bas ou la fin du tableau : TFOOT les normes du WC3 mettent la balise tfoot avant la balise tbody-->
+        <tfoot>
+            <tr>      
+            <td>Total</td>
+            <td>35</td>
+            <td>22</td>
+            <td>28</td>
+            </tr>
+        </tfoot>
+    </table>
 
 
 </body>
