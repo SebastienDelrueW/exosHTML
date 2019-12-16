@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head ><title> calculatrice </title>
+<meta charset="UTF-8">
+<style>
+
+
+    
+body {
+    width: 50%;
+    background-color: rgba(5, 53, 104, 0.55);
+    margin-top: 55px;
+    margin-left: 55px;
+    margin-right: 255px;
+    margin-bottom: 55px;
+    
+    
+}
+
+input{font-weight:bold;}
+input[type=button]{width:65px;color:rgb(34, 5, 67); border-radius: 50%;}
+
+input[type=text]{width:246px;color:rgb(96, 0, 111); text-align:right;padding-right:20px;border-color: rgba(46, 2, 77, 0.413);}
+input[type=reset]{width:272px;color:rgb(67, 5, 5); border-radius: 40%; border-color: rgb(46, 2, 77);}
+
+
+</style>
+
+        <br>&emsp;<a><strong>&ensp;C</strong>alculatrice relookée par <strong>S</strong>ébastien</a><br><br>
+
+
+<script>
+        var a, b;
+        var SelectedOp="";
+        var OpClicked=false;
+        function entrer(x){
+        switch (x) {
+        case '1': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="1";
+        else document.getElementById("label").value+="1";
+        break;
+        case '2': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="2";
+        else document.getElementById("label").value+="2";
+        break;
+        case '3': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="3";
+        else document.getElementById("label").value+="3";
+        break;
+        case '4': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="4";
+        else document.getElementById("label").value+="4";
+        break;
+        case '5': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="5";
+        else document.getElementById("label").value+="5";
+        break;
+        case '6': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="6";
+        else document.getElementById("label").value+="6";
+        break;
+        case '7': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="7";
+        else document.getElementById("label").value+="7";
+        break;
+        case '8': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="8";
+        else document.getElementById("label").value+="8";
+        break;
+        case '9': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="9";
+        else document.getElementById("label").value+="9";
+        break;
+        case '0': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="0";
+        else document.getElementById("label").value+="0";
+        break;
+        case '.': document.getElementById(".").disabled=true;
+        document.getElementById("label").value+=".";
+        break;
+
+        }
+        OpClicked=false;
+        }
+
+        function faire(x){
+        document.getElementById(".").disabled=false;
+        OpClicked=true;
+        SelectedOp=x;
+        a=document.getElementById("label").value;
+        }
+
+        function calculer(){
+        var b=document.getElementById("label").value;
+        switch (SelectedOp) {
+        case '+': document.getElementById("label").value=parseFloat(a)+parseFloat(b); break;
+        case '-': document.getElementById("label").value=parseFloat(a)-parseFloat(b); break;
+        case '*': document.getElementById("label").value=parseFloat(a)*parseFloat(b); break;
+        case '/': if (b!=0) document.getElementById("label").value=parseFloat(a)/parseFloat(b);
+        else document.getElementById("label").value="impossible sur 0 !";
+        break;
+        }
+        SelectedOp="";
+        }
+
+        </script>
+        </head>
+
+<body>
+    <form>
+        <input type="text" value="0" id="label" readonly > <br/><br>
+        <input type="button" value="1" id="1" onclick="entrer('1');">
+        <input type="button" value="2" id="2" onclick="entrer('2');">
+        <input type="button" value="3" id="3" onclick="entrer('3');">
+        <input type="button" value="+" id="+" onclick="faire('+');"><br/>
+        <input type="button" value="4" id="4" onclick="entrer('4');">
+        <input type="button" value="5" id="5" onclick="entrer('5');">
+        <input type="button" value="6" id="6" onclick="entrer('6');">
+        <input type="button" value="-" id="-" onclick="faire('-');"><br/>
+        <input type="button" value="7" id="7" onclick="entrer('7');">
+        <input type="button" value="8" id="8" onclick="entrer('8');">
+        <input type="button" value="9" id="9" onclick="entrer('9');">
+        <input type="button" value="*" id="*" onclick="faire('*');"><br/>
+        <input type="button" value="0" id="0" onclick="entrer('0');">
+        <input type="button" value="." id="." onclick="entrer('.');">
+        <input type="button" value="=" id="=" onclick="calculer();">
+        <input type="button" value="/" id="/" onclick="faire('/');"><br/><br>
+        <input type="reset" value="C">
+    </form>
+</body>
+</html> 
