@@ -15,8 +15,14 @@ body {
     border-radius: 25%;
     /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
     float: left;
+    transition: border 0.5s;
 
     
+}
+/* on modifie au passage de la souris */
+.boite:hover {
+    border: 50px solid orange;
+
 }
 
 
@@ -30,8 +36,18 @@ body {
     border: 5px solid white;
     /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
     float: left;
+    transition: border 0.9s;
 	
 }
+/* on modifie au passage de la souris */
+.boite2:hover {
+    border: 10px solid red
+
+}
+
+
+
+
 
 .clear {
     /* supprime l'effet flottant */
