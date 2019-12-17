@@ -1,0 +1,54 @@
+
+
+body {
+    background-color: rgb(7, 230, 230);
+}
+    /* stylespour la DD? Les DT et les DD */
+    /* style pour bien voir les réponse aux questions */
+
+.reponse {
+        background-color: gold
+    }
+
+DD {
+    background-color: rgb(231, 198, 255);
+}
+
+DT {
+    background-color: mediumpurple;
+}
+
+DL {
+    background-color: slategray;
+}
+
+.reponse2 { 
+    background-color: rgba(27, 220, 20, 0.383);
+}
+
+.reponse3 { 
+    background-color: crimson;
+}
+.reponse4 { 
+    background-color: rgb(20, 130, 220);
+}
+
+.reponse6 { 
+    background-color: rgb(220, 20, 170);
+}
+
+.reponse7 { 
+    background-color: rgb(20, 220, 47);
+}
+.reponse8 {
+    background-color: dimgrey;
+}
+
+body {
+    background-color:white;color:rgb(4, 54, 4);font-size:21px;
+}
+
+
+
+
+
