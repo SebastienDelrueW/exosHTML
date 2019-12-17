@@ -1,12 +1,17 @@
 /* Les styles pour la page avec les selecteurs css.html */
 
 
+* {
+/* font-size: 300; */
+}
+
+
 body {
     color:rgb(0, 0, 0);
     background-color:white;
     opacity: 1;
     background-repeat:no-repeat; 
-    font-size: 100%;
+
 }
 
 
@@ -27,12 +32,10 @@ body:after {
 h4 {
     background-color:#b8b8d7;
     margin-left: 40px;
-    width: 450px;
 }
 
 h1 {
     background-color: #f2720078;
-    width: 650px;
 
 }
 
