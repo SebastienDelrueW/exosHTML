@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <meta name="keywords" content="Exercice eBook, HTML, Sébastien Delrue">
+
     <title>Exercice eBook 1</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/mes_scripts.js"></script>
+
 </head>
 <body>
     
@@ -36,51 +41,73 @@
         <!-- Ici une DL avec des DT DD une définition list avec définition term et définition définition-->
 
         <dl>
-            <dt>Question 1</dt>
+            <dt><strong>Question 1</strong></dt>
             <dd>La déclaration DOCTYPE est-elle obligatoire ? Où doit-elle être placée ? Quelles informations contient-elle ? <br>
                 <span class="reponse">Réponse 1 : La déclaration DOCTYPE est obligatoire, elle est la structure réfencielle, elle se place en tête du code devant la balise <code>&lt;html&gt;</code>Elle contient le nom de l'élément racine </span>
             </dd>
-            <dt>Question 2</dt>
+              
+
+            <dt><strong>Question 2</strong></dt>
             <dd>Que faut-il faire pour que le code HTML soit valide ? <br>
                 <span class="reponse2">Réponse 2 : Il faut respecter l'inclusion ou l'imbrications des éléments et les attributs propres à chacun d'entre eux et ensuite vérifier avec le <a href="https://validator.w3.org/#validate_by_input" target="_blank">validateur du W3C</a></span>
             </dd>
-            <dt>Question 3</dt>
+              
+
+            <dt><strong>Question 3</strong></dt>
             <dd>À quel emplacement est defini le jeu de caractères utilisé dans le document ? <br>
-                <span class="reponse3">Réponse 3 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse3">Réponse 3 : le jeu de caractères est précisé dans un élément <code>&lt;meta&gt;</code> avec l'attribut charset inclus dans<code>&lt;head&gt;</code> <code>&lt;meta charset="UTF-8"></code></span>
             </dd>
-            <dt>Question 4</dt>
+              
+
+            <dt><strong>Question 4</strong></dt>
             <dd>Où est déclaré le nom de l'élément racine du document ? Quel est son rôle et son nom ? <br>
-                <span class="reponse4">Réponse 4 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse4">Réponse 4 : Le nom de l'élément racine est donné dans DOCTYPE,il s'agit de <code>&lt;html&gt;</code>; c'est l'élément qui inclus tous les autres donc il est au sommet de la hièrarchie</span>
             </dd>
-            <dt>Question 5</dt>
+              
+
+            <dt><strong>Question 5</strong></dt>
             <dd>Quels sont les éléments enfants de l'élément HTML ? <br>
-                <span class="reponse">Réponse 5 : <code>&lt;Les éléments enfants de HTML sont Body></code></span>
+                <span class="reponse5">Réponse 5 : <code>&lt;Les enfants (de premier niveau) sont <code>&lt;head&gt;</code> et <code>&lt;body&gt;</code></code></span>
             </dd>
-            <dt>Question 6</dt>
+              
+
+            <dt><strong>Question 6</strong></dt>
             <dd>À quoi sert l'élement <code>&lt;head&gt;</code> ? À quoi sert-il ? <br>
-                <span class="reponse6">Réponse 6 : Cela permet de préciser et de rendre visible le code </span>
+                <span class="reponse6">Réponse 6 : l'élément head est l'en-tête du document, il n'est pas vible dans le navigateur (sauf le tilte) : il conient BASE, LINK, META, SCRIPT, STYLE, TITLE. Seuls les éléments BASE et TITLE ne doivent être utilisés qu'une seule fois. </span>
             </dd>
-            <dt>Question 7</dt>
+             
+
+            <dt><strong>Question 7</strong></dt>
             <dd>Quel élement est obligatoire dans l'élément <code>&lt;head&gt;</code> ? À quoi sert-il ? <br>
-                <span class="reponse7">Réponse 7 : La balise code est obligatoire ainsi que &lt; &gt; pour faire apparaitre le texte et le code</span>
+                <span class="reponse7">Réponse 7 : Seul l'élément TITLE est obligatoire. C'est le titre dans l'onglet du navigateur. </span>
             </dd>
-            <dt>Question 8</dt>
+             
+
+            <dt><strong>Question 8</strong></dt>
             <dd>Écrire le code nécessaire à la liaison d'une feuille de style avec un document<br>
                 <span class="reponse8">Réponse 8 :<code>&lt;link rel="stylesheet" href="css/style.css"></code></span>
             </dd>
-            <dt>Question 9</dt>
+               
+
+            <dt><strong>Question 9</strong></dt>
             <dd>Écrire le code nécessaire à la liaison d'un document externe contenant des scripts JavaScript avec un document<br>
-                <span class="reponse">Réponse 9 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse9">Réponse 9 : <code>&lt;script src="js/mes_scripts.js">&gt;</script></code></span>
             </dd>
-            <dt>Question 10</dt>
+               
+
+            <dt><strong>Question 10</strong></dt>
             <dd>Comment déclarer les mots-clefs associés au site ? Quelle est l'utilité de cette déclaration ? &Eacute;crivez-un exemple <br>
-                <span class="reponse">Réponse 10 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse10">Réponse 10 : <code>&lt;meta name="keywords" content="Exercice eBook, HTML, Sébastien Delrue"&gt;</script></code></span>
             </dd>
-            <dt>Question 11</dt>
+               
+
+            <dt><strong>Question 11</strong></dt>
             <dd>Quel est le rôle de l'élément <code>&lt;base&gt;</code><br>
-                <span class="reponse">Réponse 11 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse11">Réponse 11 : (remplacez ce texte par votre réponse)</span>
             </dd>
-            <dt>Question 12</dt>
+              
+
+            <dt><strong>Question 12</strong></dt>
             <dd>Peut-on écrire le code suivant dans la page ? <br>
                 <code>
                 &lt;body&gt;<br>
@@ -89,21 +116,30 @@
                     &lt;/body&gt;
                 </code>
                 <br>
-                <span class="reponse">Réponse 12 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse12">Réponse 12 : Ce code n'est pas conforme car l'élément body contient du texte directement qui devrait être inclus dans un des élément de BODY</span>
             </dd>
-            <dt>Question 13</dt>
-            <dd>Peut-on inclure les éléments<code> &lt;body&gt;</code>, <code>&lt;form&gt;</code> et <code>&lt;li&gt;</code> directement dans l'élément &lt;body&gt; ?<br>
-                <span class="reponse">Réponse 13 : (remplacez ce texte par votre réponse)</span>
+               
+
+            <dt><strong>Question 13</strong></dt>
+            <dd>Peut-on inclure les éléments<code> &lt;tbody&gt;</code>, <code>&lt;form&gt;</code> et <code>&lt;li&gt;</code> directement dans l'élément &lt;body&gt; ?<br>
+                <span class="reponse13">Réponse 13 : Non on ne peut pas écrire TBODY directement dans Body TBODY est enfant de la balise TABLE // Non on ne peut pas écrire LI directement dans Body il est enfant de OL ou UL<br>
+                Par contre l'élément FORM peut-être ouvert directement dans BODY il ouvre un formulaire.    
+                </span>
             </dd>
-            <dt>Question 14</dt>
+              
+
+            <dt><strong>Question 14</strong></dt>
             <dd>Écrivez un script qui affiche un message d'alerte quand l'utilisateur arrive sur le site <br>
-                <span class="reponse">Réponse 14 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse14">Réponse 14 : (remplacez ce texte par votre réponse)</span>
             </dd>
-            <dt>Question 15</dt>
+            
+
+            <dt><strong>Question 15</strong></dt>
             <dd>Écrivez le code CSS suivant à l'endroit adéquat et incluez un p dans la page avec une classe pour ce code : <br>
                 <code>body {background-color:white;color:green;font-size:21px;}</code>
-                <span class="reponse">Réponse 15 : (remplacez ce texte par votre réponse)</span>
+                <span class="reponse"><a href="../exercices_ebook/exo_reponse_15.html" target="_blank">Réponse 15</a></span>
             </dd>
+            
         </dl>
     </section>
     
