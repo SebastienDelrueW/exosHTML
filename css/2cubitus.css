@@ -1,3 +1,68 @@
+/* feuille de style pour le 2cubitus*/
+
 body {
-    background-color: crimson;
+    background-color: rgb(151, 56, 56);
+    color: blanchedalmond;
+    padding: 15px;
+}
+
+section {
+    height: 500px;
+
+}
+.c1, .c2, .c3, .c4, .c5, .c6 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    float: left;
+  
+    border: 2px solid goldenrod;
+    border-radius: 15%;   
+    border: 2px solid rgb(8, 0, 0);
+    
+    text-align: center;
+}
+
+.c1 {
+    background-color:rgb(10, 177, 163);
+    border-radius:75px 5px 75px 5px; 
+    float: left,
+} 
+  
+.c2 {
+    background-color:darkgreen;
+    border-radius: 25px 50px 50px 50px;
+   
+}
+.c3 {
+    background-color: rgb(30, 210, 180);
+    border-radius: 100%;
+}
+.c4 {
+    background-color: rgb(199, 127, 108);
+    border-radius: 25px 50px 20px 50px;
+}
+   
+.c5 {
+    background-color: rgb(246, 6, 26);
+    border-radius: 25px 50px 25px 50px
+}
+
+.c6 {
+    background-color: rgb(255, 253, 253);
+    border-radius: 25px 50px 25px 50px 
+}
+
+.c7 {
+    color: transparent;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    float: left;
+    border-radius: 25px 50px 25px 50px 
+}
+
+.clear {
+    clear: both
 }
