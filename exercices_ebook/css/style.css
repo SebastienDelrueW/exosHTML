@@ -28,50 +28,13 @@ DL {
     background-color: slategray;
 }
 
-.reponse2 { 
-    background-color: rgba(27, 220, 20, 0.383);
+.reponse {
+    background-color: rgb(161, 51, 66);
 }
 
-.reponse3 { 
-    background-color: rgb(243, 95, 125);
-}
-.reponse4 { 
-    background-color: rgb(139, 182, 218);
-}
 
-.reponse5 { 
-    background-color: rgba(230, 170, 215, 0.459);
-}
-
-.reponse6 { 
-    background-color: rgba(230, 132, 157, 0.459);
-}
-
-.reponse7 { 
-    background-color: rgba(163, 90, 145, 0.863);
-}
-
-.reponse8 { 
-    background-color: rgb(127, 200, 137);
-}
-.reponse9 {
-    background-color: dimgrey;
-}
-
-.reponse10 { 
-    background-color: rgba(230, 223, 132, 0.459);
-}
-
-.reponse11 { 
-    background-color: rgba(193, 181, 194, 0.561);
-}
-
-.reponse12 { 
-    background-color: rgba(104, 212, 255, 0.24);
-}
-
-.reponse13 { 
-    background-color: rgb(175, 205, 240);
+.reponse2, .reponse3, .reponse4, .reponse5, .reponse6, .reponse7, .reponse8, .reponse9 {
+    background-color: gray;
 }
 
 body {
