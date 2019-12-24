@@ -1,8 +1,8 @@
 
 
 body {
-    background-image: url(../img/alincoln.jpg);
- background-color: rgb(56, 137, 208);
+  background:no-repeat center/80% url(../img/Affiche_LA_DARONNE.jpg);
+  background-color: rgb(56, 137, 208);
 }
 ul {
     color: blueviolet;
